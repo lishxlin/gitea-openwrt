@@ -19,6 +19,8 @@ $ cd path/to/your/openwrt-sdk-root/packages
 $ git clone https://github.com/lishxlin/gitea-openwrt.git
 ```
 
+then you know how to do.
+
 ## Architecture
 
 > If your Openwrt device is armv7 and you want have the best stable experiences, you will do is just follow the offical instruction to download the gitea for armv6.
