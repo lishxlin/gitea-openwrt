@@ -23,7 +23,7 @@ then you know how to do.
 
 ## Architecture
 
-> If your Openwrt device is armv7 and you want have the best stable experiences, you will do is just follow the offical instruction to download the gitea for armv6.
+> If your Openwrt device is armv7 and you want have the best stable experiences, you will need to do is just follow the offical instruction to download the gitea for armv6.
 
 This Makefile and Release ipk are aim for Armv7l, because this ipk build is for my router, and my router's architecture is armv7l.
 
