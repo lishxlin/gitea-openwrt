@@ -28,7 +28,7 @@ define Package/$(PKG_NAME)description
 endef
 
 define Build/Compile
-	cd $(PKG_BUILD_DIR); GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 TAGS="bindata sqlite sqlite_unlock_notify" make build
+	cd $(PKG_BUILD_DIR); GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=1 TAGS="bindata sqlite sqlite_unlock_notify" make build
 endef
  
 define Package/$(PKG_NAME)/install
